@@ -9,10 +9,6 @@ cl_radar_icon_scale_min 1
 cl_radar_always_centered 1
 cl_radar_rotate 1
 cl_showfps "1"
-net_graph "0"
-net_graphproportionalfont "0"
-net_graphheight "100"
-net_graphpos "0"
 cl_disablehtmlmotd "1"
 mm_dedicated_search_maxping "100"
 cl_forcepreload "1"
@@ -34,6 +30,7 @@ con_filter_enable "2"
 r_drawtracers_firstperson "0"
 rate "128000"
 echo "Ready to play CSGO!"
-echo "v1.0 by Koutsie"
+echo "v1.0.1 by Koutsie"
+echo "https://code.koutsie.eu/"
 host_writeconfig
 ```
