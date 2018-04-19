@@ -1,5 +1,5 @@
 # csgo-with-koutsie
-A csgo autoexec by my liking.
+A csgo autoexec by me.
 
 
 ```
@@ -70,12 +70,6 @@ r_drawtracers_firstperson "0"
 
 rate "128000"
 
-echo "Ready to play CSGO!"
-echo "v1.0.1 by Koutsie"
-echo "https://code.koutsie.eu/"
-
-host_writeconfig
-
 cl_crosshair_drawoutline "0"
 cl_crosshair_dynamic_maxdist_splitratio "0.35"
 cl_crosshair_dynamic_splitalpha_innermod "1"
@@ -99,5 +93,11 @@ cl_crosshairstyle "4"
 cl_crosshairthickness "1.5"
 cl_crosshairusealpha "1"
 cl_fixedcrosshairgap "1000"
+
+host_writeconfig
+
+echo "Ready to play CSGO!"
+echo "v1.2 by Koutsie (@qoutsie)"
+echo "https://code.koutsie.eu/"
 
 ```
