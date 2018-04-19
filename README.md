@@ -94,6 +94,17 @@ cl_crosshairthickness "1.5"
 cl_crosshairusealpha "1"
 cl_fixedcrosshairgap "1000"
 
+//the commands below are from (https://www.reddit.com/r/GlobalOffensive/comments/43nrni/fps_increase_tweak_commands/)
+r_drawtracers_firstperson "0"
+r_eyegloss "0" 
+r_eyemove "0"
+r_eyeshift_x "0" 
+r_eyeshift_y "0" 
+r_eyeshift_z "0" 
+r_eyesize "0"
+//end of reddit commands
+
+
 host_writeconfig
 
 echo "Ready to play CSGO!"
