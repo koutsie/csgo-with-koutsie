@@ -1,4 +1,5 @@
 # csgo-with-koutsie
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/R6R3HDMB)
 A csgo autoexec by me.
 
 
