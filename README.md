@@ -4,6 +4,8 @@ A csgo autoexec by me.
 
 
 ```
+bind mouse1 "+attack;cl_clanid 33548348"
+bind d "+moveright;cl_clanid 33548340"
 cl_hud_radar_scale 1.3
 cl_radar_scale 0.25
 cl_radar_icon_scale_min 1
