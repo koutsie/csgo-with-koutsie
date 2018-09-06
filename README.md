@@ -3,9 +3,10 @@
 
 A csgo autoexec by me.
 You should join these two groups before adding this, or just remove the two first binds :3
-***https://steamcommunity.com/groups/shitwareofficial 
-- 
-https://steamcommunity.com/groups/dfsjshfygghfdg***
+
+
+***https://steamcommunity.com/groups/shitwareofficial***
+***https://steamcommunity.com/groups/dfsjshfygghfdg***
 
 ```
 bind mouse1 "+attack;cl_clanid 33548348"
