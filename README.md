@@ -2,15 +2,8 @@
 [![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/R6R3HDMB)
 
 A csgo autoexec by me.
-You should join these two groups before adding this, or just remove the two first binds :3
-
-
-***https://steamcommunity.com/groups/shitwareofficial*** & 
-***https://steamcommunity.com/groups/dfsjshfygghfdg***
 
 ```
-bind mouse1 "+attack;cl_clanid 33548348"
-bind d "+moveright;cl_clanid 33548340"
 cl_hud_radar_scale 1.3
 cl_radar_scale 0.25
 cl_radar_icon_scale_min 1
@@ -117,6 +110,6 @@ host_writeconfig
 
 echo "Ready to play CSGO!"
 echo "v1.2 by Koutsie (@qoutsie)"
-echo "https://code.koutsie.eu/"
+echo "https://koutsie.l1nux.fun/"
 
 ```
