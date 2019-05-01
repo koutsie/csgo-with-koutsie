@@ -8,7 +8,7 @@ cl_hud_radar_scale 1.3
 cl_radar_scale 0.25
 cl_radar_icon_scale_min 1
 cl_radar_always_centered 1
-cl_radar_rotate 1
+cl_radar_rotate 0
 
 cl_showfps "1"
 cl_disablehtmlmotd "1"
@@ -95,7 +95,6 @@ cl_crosshairthickness "1.5"
 cl_crosshairusealpha "1"
 cl_fixedcrosshairgap "1000"
 
-//the commands below are from (https://www.reddit.com/r/GlobalOffensive/comments/43nrni/fps_increase_tweak_commands/)
 r_drawtracers_firstperson "0"
 r_eyegloss "0" 
 r_eyemove "0"
@@ -103,13 +102,12 @@ r_eyeshift_x "0"
 r_eyeshift_y "0" 
 r_eyeshift_z "0" 
 r_eyesize "0"
-//end of reddit commands
 
 
 host_writeconfig
 
 echo "Ready to play CSGO!"
-echo "v1.2 by Koutsie (@qoutsie)"
-echo "https://koutsie.l1nux.fun/"
+echo "v1.4 by Koutsie (@koutsiee)"
+echo "https://idiotic.me/"
 
 ```
