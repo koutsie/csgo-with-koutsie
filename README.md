@@ -107,7 +107,7 @@ r_eyesize "0"
 host_writeconfig
 
 echo "Ready to play CSGO!"
-echo "v1.4 by Koutsie (@koutsiee)"
+echo "v1.5 by Koutsie (@koutsiee)"
 echo "https://idiotic.me/"
 
 ```
