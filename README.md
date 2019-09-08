@@ -1,7 +1,5 @@
 # csgo-with-koutsie
-https://liberapay.com/koutsie
-
-A csgo autoexec by me.
+A nice autoexec by me.
 
 ```
 cl_hud_radar_scale 1.3
@@ -9,7 +7,9 @@ cl_radar_scale 0.25
 cl_radar_icon_scale_min 1
 cl_radar_always_centered 1
 cl_radar_rotate 0
+cl_teammate_colors_show "2" 
 
+mat_queue_mode "2"
 cl_showfps "1"
 cl_disablehtmlmotd "1"
 mm_dedicated_search_maxping "100"
@@ -37,6 +37,7 @@ mm_dedicated_search_maxping "60"
 gameinstructor_enable "0"
 option_duck_method "0"
 option_speed_method "0"
+
 cl_forcepreload "1"
 cl_downloadfilter "nosounds"
 cl_disablehtmlmotd "1"
@@ -46,9 +47,10 @@ cl_disablefreezecam "1"
 cl_teammate_colors_show "1"
 cl_autowepswitch "0"
 cl_use_opens_buy_menu "1"
+
 closeonbuy "0"
 hud_takesshots "1"
-hud_scaling "0.8"
+hud_scaling "0.6"
 hud_showtargetid "1"
 cl_draw_only_deathnotices "0"
 cl_righthand "1"
@@ -68,6 +70,7 @@ cl_bobamt_lat "0.1"
 cl_bobamt_vert "0.1"
 
 r_drawtracers_firstperson "0"
+r_dynamic "1"
 
 rate "128000"
 
@@ -96,6 +99,7 @@ cl_crosshairusealpha "1"
 cl_fixedcrosshairgap "1000"
 
 r_drawtracers_firstperson "0"
+
 r_eyegloss "0" 
 r_eyemove "0"
 r_eyeshift_x "0" 
@@ -103,11 +107,13 @@ r_eyeshift_y "0"
 r_eyeshift_z "0" 
 r_eyesize "0"
 
+snd_mixahead "0.05"
+
 
 host_writeconfig
 
 echo "Ready to play CSGO!"
-echo "v1.5 by Koutsie (@koutsiee)"
+echo "v1.6 by Koutsie (@qoutsie)"
 echo "https://idiotic.me/"
 
 ```
