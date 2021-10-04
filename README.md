@@ -46,7 +46,7 @@ cl_radar_scale 0.25
 cl_radar_icon_scale_min 1
 cl_radar_always_centered 1
 cl_radar_rotate 0
-cl_teammate_colors_show "2" 
+cl_teammate_colors_show "2"
 
 // no interpolation + cmdrate + disablefreezecam
 cl_interp "0"
@@ -54,7 +54,7 @@ cl_interp_ratio "1"
 cl_cmdrate "128"
 cl_updaterate "128"
 cl_disablefreezecam 1
-r_dynamic 0 
+r_dynamic 0
 
 // get rid of bobbing
 cl_bobamt_lat "0"
@@ -68,10 +68,10 @@ cl_viewmodel_shift_right_amt "0"
 
 // damage filter + maxping + ducking fix
 con_enable "1"
-developer "1"    
-con_filter_text "Damage given"    
-con_filter_text_out "Player:"   
-con_filter_enable "2" 
+developer "1"
+con_filter_text "Damage given"
+con_filter_text_out "Player:"
+con_filter_enable "2"
 ui_steam_overlay_notification_position "bottomright"
 player_nevershow_communityservermessage "1"
 mm_dedicated_search_maxping "60"
@@ -140,11 +140,11 @@ cl_fixedcrosshairgap "1000"
 r_drawtracers_firstperson "0"
 
 // remove eye movement
-r_eyegloss "0" 
+r_eyegloss "0"
 r_eyemove "0"
-r_eyeshift_x "0" 
-r_eyeshift_y "0" 
-r_eyeshift_z "0" 
+r_eyeshift_x "0"
+r_eyeshift_y "0"
+r_eyeshift_z "0"
 r_eyesize "0"
 
 
@@ -155,7 +155,8 @@ cl_color 255 255 255
 host_writeconfig
 
 echo "Ready to play CS:GO"
-echo "v1.8.1 by koutsie (@notkoutsie)
+echo "v1.8.2 by koutsie (@notkoutsie)
+
 
 
 ```
