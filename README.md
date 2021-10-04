@@ -54,6 +54,7 @@ cl_interp_ratio "1"
 cl_cmdrate "128"
 cl_updaterate "128"
 cl_disablefreezecam 1
+r_dynamic 0 
 
 // get rid of bobbing
 cl_bobamt_lat "0"
