@@ -151,6 +151,8 @@ r_eyesize "0"
 // misc
 snd_mixahead "0.05"
 cl_color 255 255 255
+net_graphheight 870
+net_graphpos 400
 
 host_writeconfig
 
