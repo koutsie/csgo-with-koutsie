@@ -51,8 +51,8 @@ cl_teammate_colors_show "2"
 // no interpolation + cmdrate + disablefreezecam
 cl_interp "0"
 cl_interp_ratio "1"
-cl_cmdrate "128"
-cl_updaterate "128"
+cl_cmdrate "64"
+cl_updaterate "64"
 cl_disablefreezecam 1
 r_dynamic 0
 
@@ -74,13 +74,12 @@ con_filter_text_out "Player:"
 con_filter_enable "2"
 ui_steam_overlay_notification_position "bottomright"
 player_nevershow_communityservermessage "1"
-mm_dedicated_search_maxping "60"
+mm_dedicated_search_maxping "80"
 gameinstructor_enable "0"
 option_duck_method "0"
 option_speed_method "0"
 
-// force preload + nosounds + no motd + showteammates
-cl_forcepreload "1"
+// nosounds + no motd + showteammates [R.I.P forcepreload]
 cl_downloadfilter "nosounds"
 cl_disablehtmlmotd "1"
 cl_autohelp "0"
@@ -92,17 +91,17 @@ cl_use_opens_buy_menu "1"
 
 // close buy menu on buy + cl righthand + showloadout + showfps + viewmodel settings + only deathnotices + matq2 + rate 128000
 mat_queue_mode "2"
-rate "128000"
+rate "64000"
 closeonbuy "0"
 hud_takesshots "1"
-hud_scaling "0.6"
+hud_scaling "0.5"
 hud_showtargetid "1"
 cl_draw_only_deathnotices "0"
 cl_righthand "1"
 cl_showloadout "1"
 cl_showpos "1"
 cl_showfps "0"
-viewmodel_presetpos "0"
+viewmodel_presetpos "3"
 viewmodel_fov "68"
 viewmodel_offset_x "2"
 viewmodel_offset_y "2"
@@ -130,13 +129,11 @@ cl_crosshaircolor_r "255"
 cl_crosshairdot "0"
 cl_crosshairgap "-6.5"
 cl_crosshairgap_useweaponvalue "0"
-cl_crosshairscale "0"
 cl_crosshairsize "1.5"
 cl_crosshairstyle "4"
 cl_crosshairthickness "1.5"
 cl_crosshairusealpha "1"
 cl_fixedcrosshairgap "1000"
-
 r_drawtracers_firstperson "0"
 
 // remove eye movement
@@ -151,14 +148,12 @@ r_eyesize "0"
 // misc
 snd_mixahead "0.05"
 cl_color 255 255 255
-net_graphheight 870
-net_graphpos 400
-net_graphproportionalfont 0
+@panorama_debug_overlay_opacity "0.2"
 
 host_writeconfig
 
 echo "Ready to play CS:GO"
-echo "v1.8.2 by koutsie (@notkoutsie)
+echo "v1.9.2 by koutsie (@notkoutsie)
 
 
 
