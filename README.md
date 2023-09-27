@@ -1,6 +1,11 @@
 # csgo-with-koutsie
-A ~~nice~~ autoexec for CS:GO by me.
-Are you ready for CS:2 to rip autoexec's out :D
+A ~~nice~~ autoexec for CS:GO by me.<br>
+Are you ready for CS:2 to rip autoexec's out :D<br>
+<a href="https://koutsie.github.io/csgo-with-koutsie/autoexec.cfg">download autoexec.cfg</a>
+
+<details>
+  <summary>preview the autoexect </summary>
+<br>
 
 ```
 echo ""
@@ -158,3 +163,4 @@ echo "v2.0.0 by koutsie (@k@layer8.space)
 echo "check for updates at:"
 echo "https://k0.tel/l/csgocfg"
 ```
+</details>
