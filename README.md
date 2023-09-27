@@ -1,5 +1,6 @@
 # csgo-with-koutsie
-A nice autoexec by me.
+A ~~nice~~ autoexec for CS:GO by me.
+Are you ready for CS:2 to rip autoexec's out :D
 
 ```
 echo ""
@@ -42,7 +43,7 @@ echo ""
 
 // radar settings
 cl_hud_radar_scale 1.3
-cl_radar_scale 0.25
+cl_radar_scale 0.35
 cl_radar_icon_scale_min 1
 cl_radar_always_centered 1
 cl_radar_rotate 0
@@ -51,8 +52,8 @@ cl_teammate_colors_show "2"
 // no interpolation + cmdrate + disablefreezecam
 cl_interp "0"
 cl_interp_ratio "1"
-cl_cmdrate "64"
-cl_updaterate "64"
+cl_cmdrate "128"
+cl_updaterate "128"
 cl_disablefreezecam 1
 r_dynamic 0
 
@@ -74,7 +75,7 @@ con_filter_text_out "Player:"
 con_filter_enable "2"
 ui_steam_overlay_notification_position "bottomright"
 player_nevershow_communityservermessage "1"
-mm_dedicated_search_maxping "80"
+mm_dedicated_search_maxping "75"
 gameinstructor_enable "0"
 option_duck_method "0"
 option_speed_method "0"
@@ -91,7 +92,7 @@ cl_use_opens_buy_menu "1"
 
 // close buy menu on buy + cl righthand + showloadout + showfps + viewmodel settings + only deathnotices + matq2 + rate 128000
 mat_queue_mode "2"
-rate "64000"
+rate "128000"
 closeonbuy "0"
 hud_takesshots "1"
 hud_scaling "0.5"
@@ -102,7 +103,7 @@ cl_showloadout "1"
 cl_showpos "1"
 cl_showfps "0"
 viewmodel_presetpos "3"
-viewmodel_fov "68"
+viewmodel_fov "62"
 viewmodel_offset_x "2"
 viewmodel_offset_y "2"
 viewmodel_offset_z "-2"
@@ -144,17 +145,16 @@ r_eyeshift_y "0"
 r_eyeshift_z "0"
 r_eyesize "0"
 
-
 // misc
+fps_max 244
 snd_mixahead "0.05"
 cl_color 255 255 255
-@panorama_debug_overlay_opacity "0.2"
+@panorama_debug_overlay_opacity "0.35"
 
 host_writeconfig
 
 echo "Ready to play CS:GO"
-echo "v1.9.2 by koutsie (@notkoutsie)
-
-
-
+echo "v2.0.0 by koutsie (@k@layer8.space)
+echo "check for updates at:"
+echo "https://k0.tel/l/csgocfg"
 ```
